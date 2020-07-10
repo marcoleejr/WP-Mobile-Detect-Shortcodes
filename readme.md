@@ -13,4 +13,4 @@ This uses the Mobile Detect Library https://github.com/serbanghita/Mobile-Detect
 | [show_in_desktop]     | [show_in_desktop]This shows only in desktop version[/show_in_desktop]    |
 | [show_in_iOS]         | [show_in_iOS]Show in iOS[/show_in_iOS]                                   |
 | [show_in_android]     | [show_in_android]Show in android[/show_in_android]                       |
-| [show_in_tablet]      | [show_in_tablet]Show in TABLET[/show_in_tablet]                          |
+| [show_in_tablet]      | [show_in_tablet]Show in tablet[/show_in_tablet]                          |
