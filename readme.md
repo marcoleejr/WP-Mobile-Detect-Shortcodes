@@ -14,3 +14,9 @@ This uses the Mobile Detect Library https://github.com/serbanghita/Mobile-Detect
 | [show_in_iOS]         | [show_in_iOS]Show in iOS[/show_in_iOS]                                   |
 | [show_in_android]     | [show_in_android]Show in android[/show_in_android]                       |
 | [show_in_tablet]      | [show_in_tablet]Show in tablet[/show_in_tablet]                          |
+
+## Installation
+
+1. Download as zip and upload the plugin to your WordPress site.
+2. Activate the plugin named "WP Mobile Detect Shortcodes".
+3. Enjoy
