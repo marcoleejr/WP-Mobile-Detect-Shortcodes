@@ -20,7 +20,6 @@ if (!class_exists('WP_Mobile_Detect_Shortcodes_MarcoLeeJr')) {
             $this->detect = new WPMDS_Mobile_Detect;
             add_shortcode('show_in_desktop', array($this, 'show_in_desktop'));
             add_shortcode('show_in_mobile', array($this, 'show_in_mobile'));
-            add_shortcode('show_in_mobile_and_tablets', array($this, 'show_in_mobile_and_tablets'));
             add_shortcode('show_in_iOS', array($this, 'show_in_iOS'));
             add_shortcode('show_in_android', array($this, 'show_in_android'));
             add_shortcode('show_in_tablet', array($this, 'show_in_tablet'));
@@ -38,15 +37,6 @@ if (!class_exists('WP_Mobile_Detect_Shortcodes_MarcoLeeJr')) {
         // [show_in_mobile] excluding tablets shortcode
         public function show_in_mobile($atts, $content = null) {
             if($this->detect->isMobile() && !$this->detect->isTablet()){
-                return  wpautop( do_shortcode( $content ) );
-            } else {
-                return null;
-            }
-        }
-
-        // [show_in_mobile_and_tablets] including tablets shortcode
-        public function show_in_mobile_and_tablets($atts, $content = null) {
-            if($this->detect->isMobile()) {
                 return  wpautop( do_shortcode( $content ) );
             } else {
                 return null;
