@@ -1,0 +1,1 @@
+# WP Mobile Detect Shortcodes
